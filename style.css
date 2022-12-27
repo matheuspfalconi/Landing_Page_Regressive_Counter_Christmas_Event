@@ -1,0 +1,289 @@
+/*===================================Fontes Gerais===================================/
+			Body - 16px
+			H1 - 32px
+			H2 - 
+			H3 - 
+			SPAN - 14px
+			P - 16px
+			A - 16px
+
+			*/
+
+			/*===================================Breakpoints Gerais===================================/
+
+			@media (min-width:320px) { smartphones, portrait iPhone, portrait 480x320 phones (Android) }
+			@media (min-width:480px) { smartphones, Android phones, landscape iPhone }
+			@media (min-width:600px) { portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) }
+			@media (min-width:801px) { tablet, landscape iPad, lo-res laptops ands desktops }
+			@media (min-width:1025px) { big landscape tablets, laptops, and desktops }
+			@media (min-width:1281px) { hi-res laptops and desktops }
+
+			/*
+
+
+			/*===================================Fontes===================================*/
+
+			/*===================================Estilos Gerais===================================*/
+
+			textarea:focus, input:focus, select:focus {
+			    box-shadow: 0 0 0 0;
+			    border: 0 none;
+			    outline: 0;
+			}
+
+			html {
+				scroll-behavior: smooth;
+			}
+
+			body, p, h1, h2, h3, h4, ul, li, blockquote {
+				padding: 0px;
+				margin: 0px;
+			}
+
+			body, html {
+			    width: 100%;
+			    height: 100%;
+			}
+
+			body {
+				background: white;
+
+				color: black;
+				font-size: 18px;
+				line-height: 1.3;
+				text-align: left;
+				font-family: 'Poppins', sans-serif;
+			}
+
+			h1, h2, h3, h4 {
+				font-family: 'Roboto Condensed', sans-serif;
+			}
+
+			* {box-sizing:border-box;}
+
+			li {
+				list-style: none;	
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			a:hover {
+				text-decoration: none;
+			}
+
+			img {
+				display: block;
+			}
+
+			h1 {
+				font-size: 2em;
+			}
+
+			h2 {
+			  font-size: 1.825em;
+			}
+
+			h3 {
+				font-size: 1.250em;
+			}
+
+			span {
+				font-size: 1em;
+			}
+
+			input, button {
+			    -webkit-appearance: none;
+			    -moz-appearance: none;
+			    appearance: none;
+			}
+
+			/*===================================Estilos Header===================================*/
+
+			header {
+				width: 100%;
+				height: auto;
+				background-color: #c43b3b;
+				position: fixed;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				padding: 10px 100px;
+			}
+
+			.text_logo {
+				font-family: 'Poppins', sans-serif;
+				color: white;
+			}
+
+			.list_navbar {
+				width: 190px;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				font-size: 14px;
+			}
+
+			.list_navbar > a {
+				color: white;
+			}
+
+			.list_navbar > a:hover {
+				color: black;
+			}
+
+			/*===================================Estilos Home===================================*/
+
+			main, section {
+				width: 100%;
+				height: auto;
+			}
+
+			#home_page {
+				background: url("https://img.freepik.com/free-photo/christmas-tree-space-left_23-2147722534.jpg?w=900&t=st=1672086370~exp=1672086970~hmac=c340642a8072322d26bf74c4859329ca702469da0f60e873033d34f128f5e0fb");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+
+			.div_container {
+				width: 100%;
+				height: 100vh;
+				display: flex;
+				padding: 0 100px;
+				align-items: center;
+				border-bottom: 2px solid #c43b3b;
+			}
+
+			.div_content {
+				width: 600px;
+				height: auto;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+			}
+
+			.div_event_day {
+				width: 500px;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				margin-bottom: 40px;
+			}
+
+			.line_event_day {
+				width: 60px;
+				height: 1px;
+				margin-top: 8px;
+				border-bottom: 2px solid #c43b3b;
+			}
+
+			.text_event_day {
+				font-size: 16px;
+			}
+
+			.div_title_counter {
+				width: 100%;
+				font-size: 26px;
+			}
+
+			.div_counter {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				margin-bottom: 40px;
+				font-size: 22px;
+			}
+
+			.counter {
+				width: 100%;
+			}
+
+			.list_tipe_data {
+				width: 260px;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+			}
+
+			.tipe_data {
+				width: 60px;
+				font-size: 14px;
+			}
+
+			.div_buttons {
+				width: 280px;
+				height: auto;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+			}
+
+			.counter_button {
+				width: 130px;
+				height: 35px;
+				border: none;
+				border-radius: 10px;
+				color: white;
+				cursor: pointer;
+			}
+
+			.counter_button:hover {
+				font-size: 14px;
+			}
+
+			.button_fill {
+				background: #c43b3b;
+			}
+
+			.button_outlined {
+				background: rgba(0, 0, 0, 0);
+				color: black;
+				border: 2px solid #c43b3b;
+			}
+
+			/*===================================Estilos About===================================*/
+
+			#about_page {
+				width: 100%;
+				height: auto;
+				background: url('https://www.pngplay.com/wp-content/uploads/12/Snow-PNG-Photo-Image.png');
+				padding: 50px 200px;
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			.div_img_about {
+				width: auto;
+				height: auto;
+				padding: 0 10px;
+			}
+
+			.img_about {
+				width: 250px;
+				height: 250px;
+				border-radius: 100%;
+			}
+
+			.div_text_about {
+				width: 65%;
+				height: auto;
+				padding: 0 10px;
+			}
+
+			.line_text_about {
+				width: 50px;
+				height: 1px;
+				margin: 10px 0;
+				border-bottom: 3px solid red;
+			}
+			
+			.text_about {
+				margin-top: 10px;
+				text-indent: 20px;
+			}
